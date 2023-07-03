@@ -1,0 +1,151 @@
+.container {
+  max-width: 400px;
+  margin: 3rem auto; /* Center the container */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px lightblue;
+}
+
+.container .td {
+  margin-left: 1.5rem;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.container .taskbtn {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.atd {
+  background-color: #2196f3;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin-left: -40px;
+}
+
+.savebutton {
+  width: 60px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: lightgreen;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.editbtn {
+  width: 60px;
+  padding: 5px;
+  /* margin-bottom: 10px; */
+  background-color: lightseagreen;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0rem;
+  padding-right: 5px;
+  margin-left: 6px;
+  height: 35px;
+}
+
+.deletebtn {
+  width: 60px;
+  padding: 5px;
+  /* margin-bottom: 10px; */
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0rem;
+  /* margin-top: 6px; */
+  height: 35px;
+}
+
+.cancelbutton {
+  width: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: brown;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.container ul {
+  list-style: none;
+  padding: 5px;
+  margin-right: 25px;
+}
+
+.container li {
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px skyblue;
+}
+
+.Comp {
+  max-width: 400px;
+  margin: 3rem auto; /* Center the completed todos div */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px lightblue;
+  margin-top: 2rem; /* Adjust the margin-top value as needed */
+}
+
+.icon-check-todo {
+  background: #2196f3;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 25px;
+  margin-bottom: 0px;
+  margin-top: 0.3rem;
+  
+}
+
+.completedcard {
+  width: 100%;
+  height: auto;
+  color: black;
+  background: lightblue;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.ed{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icontitle{
+    display: flex;
+}
